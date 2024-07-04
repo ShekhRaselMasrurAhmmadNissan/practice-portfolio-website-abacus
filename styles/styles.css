@@ -2,14 +2,19 @@ body {
 	padding: 0 10px;
 }
 
+/* Nav Section Start */
 nav {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	background-color: royalblue;
+	position: -webkit-sticky;
+	position: sticky;
+
+	top: 0;
 }
 
-#div_left {
+#nav_left {
 	padding: 10px;
 	background-color: white;
 	border-top-right-radius: 50%;
@@ -17,18 +22,18 @@ nav {
 	margin: 5px 0 5px 10px;
 }
 
-#div_left > img {
+#nav_left > img {
 	height: 60px;
 	width: 60px;
 }
 
-#div_right {
+#nav_right {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#div_right > a {
+#nav_right > a {
 	display: inline-block;
 	padding: 10px;
 	height: auto;
@@ -41,7 +46,105 @@ nav {
 	color: royalblue;
 }
 
-#div_right > a:hover {
+#nav_right > a:hover {
 	color: white;
 	background-color: cadetblue;
 }
+/* Nav Section End */
+
+/* Home Section Start */
+#home {
+	display: flex;
+	max-width: 100%;
+	margin-top: 25px;
+}
+
+#home_left > img {
+	height: 500px;
+	border-radius: 20px;
+}
+
+#home_right {
+	margin-left: 30px;
+}
+#home_right > h1 {
+	color: darkseagreen;
+	font-size: 3em;
+}
+
+#home_right > p {
+	max-width: 700px;
+}
+/* Home Section End */
+
+/* About Section Start */
+#about {
+	display: flex;
+	flex-direction: row-reverse;
+	max-width: 100%;
+	margin-top: 25px;
+}
+
+#about_left > img {
+	height: 500px;
+	border-radius: 20px;
+}
+
+#about_right {
+	margin-left: 30px;
+}
+#about_right > h1 {
+	color: darkseagreen;
+	font-size: 3em;
+}
+
+#about_right > p {
+	max-width: 700px;
+}
+/* About Section End */
+
+/* Contact Section Start */
+#contact {
+	display: flex;
+	max-width: 100%;
+	margin-top: 25px;
+}
+
+#contact_left > img {
+	height: 500px;
+	border-radius: 20px;
+}
+
+#contact_right {
+	margin-left: 30px;
+}
+#contact_right > h1 {
+	color: darkseagreen;
+	font-size: 3em;
+}
+
+#contact_form {
+	display: flex;
+	flex-direction: column;
+}
+
+#contact_form > label {
+	color: darkcyan;
+	font-size: 1.7em;
+}
+
+#contact_form > input,
+textarea {
+	width: 350px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid cadetblue;
+	margin-bottom: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#contact_form > textarea {
+	height: 6em;
+}
+/* Contact Section End */
