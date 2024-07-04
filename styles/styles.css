@@ -22,7 +22,26 @@ nav {
 	width: 60px;
 }
 
+#div_right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #div_right > a {
 	display: inline-block;
 	padding: 10px;
+	height: auto;
+	width: 50px;
+	background: white;
+	margin-right: 15px;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	color: royalblue;
+}
+
+#div_right > a:hover {
+	color: white;
+	background-color: cadetblue;
 }
