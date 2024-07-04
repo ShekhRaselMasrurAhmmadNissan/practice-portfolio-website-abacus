@@ -1,0 +1,28 @@
+body {
+	padding: 0 10px;
+}
+
+nav {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	background-color: royalblue;
+}
+
+#div_left {
+	padding: 10px;
+	background-color: white;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+	margin: 5px 0 5px 10px;
+}
+
+#div_left > img {
+	height: 60px;
+	width: 60px;
+}
+
+#div_right > a {
+	display: inline-block;
+	padding: 10px;
+}
