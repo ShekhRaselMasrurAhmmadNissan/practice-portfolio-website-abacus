@@ -57,6 +57,7 @@ nav {
 	display: flex;
 	max-width: 100%;
 	margin-top: 25px;
+	padding-top: 100px;
 }
 
 #home_left > img {
@@ -83,6 +84,8 @@ nav {
 	flex-direction: row-reverse;
 	max-width: 100%;
 	margin-top: 25px;
+
+	padding-top: 100px;
 }
 
 #about_left > img {
@@ -108,6 +111,7 @@ nav {
 	display: flex;
 	max-width: 100%;
 	margin-top: 25px;
+	padding-top: 100px;
 }
 
 #contact_left > img {
